@@ -1,0 +1,7 @@
+test:
+  box: golang/1.7.0-alpine
+  steps:
+    - script:
+      name: go test
+      code: |-
+        go test
