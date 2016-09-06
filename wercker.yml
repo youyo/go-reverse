@@ -1,5 +1,7 @@
 test:
-  box: golang:1.7.0-alpine
+  box:
+     id: golang:1.7.0-alpine
+     cmd: /bin/sh
   steps:
     - script:
       name: go test
