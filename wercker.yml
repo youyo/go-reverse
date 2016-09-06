@@ -3,6 +3,8 @@ test:
      id: golang:1.7.0-alpine
      cmd: /bin/sh
   steps:
+    - wercker/setup-go-workspace:
+      package-dir: github.com/youyo/reverse
     - script:
       name: go test
       code: |-
