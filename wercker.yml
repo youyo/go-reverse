@@ -1,5 +1,5 @@
 test:
-  box: golang/1.7.0-alpine
+  box: golang:1.7.0-alpine
   steps:
     - script:
       name: go test
