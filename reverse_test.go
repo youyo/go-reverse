@@ -3,7 +3,7 @@ package reverse_test
 import (
 	"testing"
 
-	"github.com/youyo/reverse"
+	"github.com/youyo/go-reverse"
 )
 
 func TestBool(t *testing.T) {

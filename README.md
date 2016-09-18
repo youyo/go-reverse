@@ -1,6 +1,6 @@
-# reverse
+# go-reverse
 
-[![wercker status](https://app.wercker.com/status/136d0cd3e507fd2ec33633f5603ab171/s/ "wercker status")](https://app.wercker.com/project/byKey/136d0cd3e507fd2ec33633f5603ab171)
+[![wercker status](https://app.wercker.com/status/3cee32df6a0d3e5b65875c81490fd1ff/s/master "wercker status")](https://app.wercker.com/project/byKey/3cee32df6a0d3e5b65875c81490fd1ff)
 
 To reverse the bool.
 
@@ -10,7 +10,7 @@ Just call `reverse.Bool()`.
 
 ```
 import (
-	"github.com/youyo/reverse"
+	"github.com/youyo/go-reverse"
 )
 
 beTrue := reverse.Bool(false)

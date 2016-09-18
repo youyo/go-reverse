@@ -4,7 +4,7 @@ test:
      cmd: /bin/sh
   steps:
     - wercker/setup-go-workspace:
-      package-dir: github.com/youyo/reverse
+      package-dir: github.com/youyo/go-reverse
     - script:
       name: go test
       code: |-
